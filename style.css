@@ -1,0 +1,59 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Outfit&display=swap'); */
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    background-color:hsl(212, 45%, 89%) ;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+}
+ .items{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width:25%;
+    height: 75%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 13px;
+    display: flex;
+  flex-direction: column;
+}
+
+.img{
+    padding: 5px;
+    margin-top:15px;
+    
+}
+
+img{
+    width: 325px;
+    height: auto;
+    
+    border-radius: 10px;
+    
+}
+h2{
+    padding: 6px 60px;
+    margin: 2px;
+    color: hsl(218, 44%, 22%);
+    
+}
+p{
+    padding: 6px 60px;
+    margin: 5px;
+    color: hsl(220, 15%, 55%);
+    
+}
+
+
+
